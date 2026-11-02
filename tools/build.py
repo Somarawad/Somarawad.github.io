@@ -413,8 +413,13 @@ def media_map(p: dict) -> dict:
 
 
 def hero_slot(p: dict):
+    """The slot with id 'hero'; else the first slot, unless the project leads with a stats card."""
     mm = media_map(p)
-    return mm.get("hero") or (p.get("media") or [None])[0]
+    if "hero" in mm:
+        return mm["hero"]
+    if p.get("card_stats"):
+        return None
+    return (p.get("media") or [None])[0]
 
 
 def stats_block(stats: list, cls: str = "") -> str:
@@ -636,7 +641,12 @@ def build_project(site, p, nxt, pipelines) -> str:
         chips = "".join(f'<li class="chip">{esc(t)}</li>' for t in p["tools"])
         tools = f'<h3 class="label label--tools">Tools</h3><ul class="chips" role="list">{chips}</ul>'
 
-    sections = "\n".join(render_section(s, p, pipelines, root) for s in p.get("sections", []))
+    secs = list(p.get("sections", []))
+    if not hero_html and secs and secs[0].get("type") == "stats":
+        # Projects without hero media (the channel) lead with their stats card instead.
+        lead = dict(secs.pop(0), heading="", intro="")
+        hero_html = render_section(lead, p, pipelines, root).replace(" wrap\" data-reveal", "\"", 1)
+    sections = "\n".join(render_section(s, p, pipelines, root) for s in secs)
 
     results = ""
     if p.get("results"):
