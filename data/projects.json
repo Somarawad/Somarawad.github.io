@@ -1,0 +1,1138 @@
+{
+  "site": {
+    "name": "Somar Awad",
+    "role": "Creative Technologist",
+    "location": "Montreal",
+    "url": "https://somarawad.github.io/",
+    "title": "Somar Awad: Creative Technologist, AI video for advertising",
+    "description": "Somar Awad, creative technologist in Montreal. AI video for advertising, and custom ComfyUI tools that keep it on brand.",
+    "headline": "I make AI video for advertising and build the tools that *keep it on brand.*",
+    "supporting": "From concept to generated shots, image-to-video, client revisions and the finished spot. Plus custom ComfyUI tools that fix what makes AI footage unusable: character drift, inconsistent environments, garbled logos.",
+    "flow": [
+      "Concept",
+      "Generated shots",
+      "Image-to-video",
+      "Client revisions",
+      "Finished spot"
+    ],
+    "open_to": "Open to roles as AI video creator, generative AI artist or creative technologist.",
+    "email": "somar.awad90@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/somar-awad-aa13681b2",
+    "github": "https://github.com/Somarawad",
+    "languages": [
+      "English",
+      "French",
+      "Arabic"
+    ],
+    "palette": [
+      "#1a1410",
+      "#5a3a1c"
+    ],
+    "showreel": {
+      "id": "showreel",
+      "type": "video",
+      "label": "Showreel",
+      "src": "media/reel/showreel.mp4",
+      "poster": "media/reel/poster.jpg",
+      "alt": "Showreel: a montage of AI-generated advertising shots by Somar Awad",
+      "embed": ""
+    },
+    "showreel_full": {
+      "id": "showreel-full",
+      "type": "embed",
+      "label": "Full showreel",
+      "url": "",
+      "src": "media/reel/showreel-full.mp4",
+      "poster": "media/reel/poster.jpg",
+      "alt": "Full showreel with sound"
+    },
+    "about": {
+      "intro": "I'm a creative technologist in Montreal. I make AI video for advertising, and I build the tools that keep it on brand.",
+      "bio": [
+        "My work runs the whole way from concept to generated shots, image-to-video, client revisions and the finished spot. Alongside it I write custom ComfyUI nodes in Python that fix what makes AI footage unusable in a real job: characters that drift between shots, environments that change, logos that come out garbled.",
+        "I trained in VFX (FX TD diploma, Campus VFX, Montreal, 2023–2024), which is where the pipeline thinking comes from. Before that I spent seven years at Emirates as cabin crew, ending in Business Class: premium client service, and staying calm under pressure, every day. Most recently I worked in IT operations at oXya (2024–2026).",
+        "Since June 2025 I've been freelancing for production teams in Saudi Arabia, delivering AI imagery and video inside productions that also use CGI and VFX."
+      ],
+      "portrait": {
+        "id": "portrait",
+        "type": "image",
+        "label": "Portrait",
+        "src": "media/about/portrait.jpg",
+        "alt": "Portrait of Somar Awad",
+        "aspect": "4/5"
+      },
+      "timeline": [
+        {
+          "years": "Jun 2025 – present",
+          "title": "Freelance AI video & imagery",
+          "place": "Production teams in Saudi Arabia"
+        },
+        {
+          "years": "2025 – 2026",
+          "title": "AI YouTube channel",
+          "place": "12,000+ subscribers, monetized"
+        },
+        {
+          "years": "2024 – 2026",
+          "title": "IT operations",
+          "place": "oXya"
+        },
+        {
+          "years": "2023 – 2024",
+          "title": "FX TD diploma",
+          "place": "Campus VFX, Montreal"
+        },
+        {
+          "years": "2016 – 2023",
+          "title": "Cabin crew, ending in Business Class",
+          "place": "Emirates"
+        }
+      ],
+      "tool_groups": [
+        {
+          "name": "Generation",
+          "items": [
+            "ComfyUI (Krea, MiniMax H3, Qwen Image Edit, Wan)",
+            "Seedance",
+            "Kling",
+            "Veo",
+            "Higgsfield",
+            "OpenArt",
+            "Nano Banana / Nano Banana 2",
+            "GPT Image 2.5"
+          ]
+        },
+        {
+          "name": "Building tools",
+          "items": [
+            "Custom ComfyUI nodes in Python",
+            "SAM 3 segmentation",
+            "LLM APIs: Gemini, Claude, OpenAI",
+            "Claude + Higgsfield MCP"
+          ]
+        },
+        {
+          "name": "Previs & post",
+          "items": [
+            "Blender camera blocking as Seedance reference",
+            "CapCut for assembly",
+            "AI voice and sound in post"
+          ]
+        }
+      ]
+    }
+  },
+  "projects": [
+    {
+      "slug": "client-work",
+      "title": "Client work for Saudi production teams",
+      "card_title": "Client work, Saudi production teams",
+      "category": "Client work",
+      "year": "2025–now",
+      "dates": "Jun 2025 – present",
+      "role": "Freelance AI imagery & video",
+      "published": true,
+      "featured": true,
+      "wip": false,
+      "order": 1,
+      "palette": [
+        "#1d140c",
+        "#8a5a2b"
+      ],
+      "tagline": "AI imagery and video inside real productions, alongside CGI and VFX.",
+      "summary": "Half the visuals of a ten-minute presentation film, historical scenes for a promotional film, destination views for a rail campaign, and shots an earlier VFX approach couldn't deliver.",
+      "brief": "Since June 2025 I've worked freelance with production teams in Saudi Arabia, delivering AI imagery and video inside productions that also use CGI and conventional VFX. Clients aren't named here, so each job is described by what it needed.",
+      "what_i_did": [
+        "Produced about half the visuals of a ten-minute presentation film that mixes AI imagery, video generation, CGI and VFX.",
+        "Built historical environments and characters for a promotional film, revising frames from detailed cultural notes (architecture, wardrobe, crowd density, props) before converting the approved frames to video.",
+        "Made destination backgrounds for a rail campaign: replaced the window views in photographed train interiors and matched the lighting to the carriage and the passengers.",
+        "Rescued shots an earlier VFX approach couldn't deliver: a head-through-ceiling gag, a frozen performer with only his headscarf moving, and a camera move extended into a transition."
+      ],
+      "tools": [
+        "AI image generation",
+        "Image-to-video",
+        "Working alongside CGI & VFX",
+        "Lighting match"
+      ],
+      "note": "",
+      "media": [
+        {
+          "id": "hero",
+          "type": "video",
+          "label": "Hero loop",
+          "src": "media/client/hero.mp4",
+          "poster": "media/client/poster.jpg",
+          "alt": "Selected AI shots from client productions"
+        },
+        {
+          "id": "train",
+          "type": "compare",
+          "label": "Rail campaign",
+          "before": "media/client/train-before.jpg",
+          "after": "media/client/train-after.jpg",
+          "alt_before": "Photographed train interior with the original window view",
+          "alt_after": "The same interior with a generated destination view and matched lighting",
+          "caption": "Rail campaign: window view replaced, lighting matched to the carriage and passengers."
+        },
+        {
+          "id": "historical",
+          "type": "compare",
+          "label": "Historical scene",
+          "before": "media/client/historical-before.jpg",
+          "after": "media/client/historical-after.jpg",
+          "alt_before": "First generated frame of a historical scene",
+          "alt_after": "The frame revised from cultural notes on architecture, wardrobe, crowd density and props",
+          "caption": "Promotional film: a historical frame before and after revision from cultural notes."
+        },
+        {
+          "id": "ceiling",
+          "type": "compare",
+          "label": "Ceiling gag",
+          "before": "media/client/ceiling-before.jpg",
+          "after": "media/client/ceiling-after.jpg",
+          "alt_before": "Original plate for the head-through-ceiling gag",
+          "alt_after": "Finished head-through-ceiling gag",
+          "caption": "Rescued shot: the head-through-ceiling gag."
+        },
+        {
+          "id": "headscarf",
+          "type": "video",
+          "label": "Frozen performer",
+          "src": "media/client/headscarf.mp4",
+          "poster": "media/client/headscarf-poster.jpg",
+          "alt": "A frozen performer with only his headscarf moving",
+          "caption": "Rescued shot: the performer is frozen and only his headscarf moves."
+        },
+        {
+          "id": "transition",
+          "type": "video",
+          "label": "Extended camera move",
+          "src": "media/client/transition.mp4",
+          "poster": "media/client/transition-poster.jpg",
+          "alt": "A camera move extended into a transition",
+          "caption": "Rescued shot: a camera move extended into a transition."
+        }
+      ],
+      "sections": [
+        {
+          "type": "steps",
+          "heading": "How a revision-heavy job runs",
+          "intro": "On the promotional film, stills were approved before anything moved. Revising a frame is cheap; revising a video is not.",
+          "items": [
+            {
+              "title": "Cultural notes",
+              "body": "Detailed notes on architecture, wardrobe, crowd density and props."
+            },
+            {
+              "title": "Revised frames",
+              "body": "Environments and characters regenerated and edited until they match the notes."
+            },
+            {
+              "title": "Approval",
+              "body": "The production team signs off on the stills."
+            },
+            {
+              "title": "Image-to-video",
+              "body": "Only approved frames are converted to video."
+            }
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "Before / after",
+          "intro": "Drag the handle, or focus it and use the arrow keys.",
+          "media": [
+            "train",
+            "historical",
+            "ceiling"
+          ]
+        },
+        {
+          "type": "gallery",
+          "heading": "Shots an earlier VFX approach couldn't deliver",
+          "media": [
+            "headscarf",
+            "transition"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "value": "~50%",
+          "label": "of the visuals in a ten-minute presentation film"
+        },
+        {
+          "value": "3",
+          "label": "shots rescued after an earlier VFX approach"
+        },
+        {
+          "value": "Jun 2025",
+          "label": "freelancing since, ongoing"
+        }
+      ],
+      "credits": [
+        {
+          "role": "AI imagery & video",
+          "name": "Somar Awad"
+        },
+        {
+          "role": "Clients",
+          "name": "Production teams in Saudi Arabia (not named)"
+        }
+      ],
+      "links": []
+    },
+    {
+      "slug": "to-nora",
+      "title": "To Nora",
+      "category": "Short film",
+      "year": "",
+      "role": "Writer, director, AI generation",
+      "published": true,
+      "featured": true,
+      "wip": false,
+      "order": 2,
+      "palette": [
+        "#0c1412",
+        "#3d5a4a"
+      ],
+      "tagline": "A fully AI-generated psychological horror short set in the 1980s.",
+      "summary": "Psychological horror set in the 1980s, written and generated in about a week on a $600 budget, with characters and locations consistent shot to shot.",
+      "brief": "To Nora is a fully AI-generated psychological horror short film set in the 1980s. I wrote and generated it in about a week on a $600 budget. The hard part wasn't any single shot: it was keeping the same characters and the same locations consistent from one shot to the next, so the film reads as one world.",
+      "what_i_did": [
+        "Wrote the film.",
+        "Generated every shot: no live action, no stock footage.",
+        "Kept characters and locations consistent shot to shot across the whole film.",
+        "Delivered in about a week on $600."
+      ],
+      "tools": [],
+      "note": "",
+      "media": [
+        {
+          "id": "hero",
+          "type": "video",
+          "label": "Hero loop",
+          "src": "media/to-nora/hero.mp4",
+          "poster": "media/to-nora/poster.jpg",
+          "alt": "Still from To Nora, an AI-generated 1980s psychological horror short"
+        },
+        {
+          "id": "film",
+          "type": "embed",
+          "label": "Watch the film",
+          "url": "",
+          "src": "media/to-nora/film.mp4",
+          "poster": "media/to-nora/poster.jpg",
+          "alt": "To Nora, full short film"
+        },
+        {
+          "id": "still-1",
+          "type": "image",
+          "label": "Still 1",
+          "src": "media/to-nora/still-1.jpg",
+          "alt": "Still from To Nora"
+        },
+        {
+          "id": "still-2",
+          "type": "image",
+          "label": "Still 2",
+          "src": "media/to-nora/still-2.jpg",
+          "alt": "Still from To Nora"
+        },
+        {
+          "id": "still-3",
+          "type": "image",
+          "label": "Still 3",
+          "src": "media/to-nora/still-3.jpg",
+          "alt": "Still from To Nora"
+        },
+        {
+          "id": "still-4",
+          "type": "image",
+          "label": "Still 4",
+          "src": "media/to-nora/still-4.jpg",
+          "alt": "Still from To Nora"
+        }
+      ],
+      "sections": [
+        {
+          "type": "film",
+          "heading": "The film",
+          "media": "film"
+        },
+        {
+          "type": "gallery",
+          "heading": "Same characters, same places, shot to shot",
+          "media": [
+            "still-1",
+            "still-2",
+            "still-3",
+            "still-4"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "value": "~1 week",
+          "label": "written and generated"
+        },
+        {
+          "value": "$600",
+          "label": "total generation budget"
+        },
+        {
+          "value": "100%",
+          "label": "AI-generated"
+        }
+      ],
+      "credits": [
+        {
+          "role": "Written and generated by",
+          "name": "Somar Awad"
+        }
+      ],
+      "links": []
+    },
+    {
+      "slug": "bloom-too-fresh",
+      "title": "BLOOM: Too Fresh",
+      "category": "Spec ad",
+      "year": "2026",
+      "dates": "Sep 2026",
+      "role": "Concept, generation, edit",
+      "published": true,
+      "featured": false,
+      "wip": false,
+      "order": 3,
+      "palette": [
+        "#1a1016",
+        "#a04a6e"
+      ],
+      "tagline": "A comedy spec ad for a fictional air freshener. OpenArt Ad Awards 2026 entry.",
+      "summary": "Comedy spec ad for a fictional air freshener, entered in the OpenArt Ad Awards 2026. A $200 budget, spent on a resolution ladder.",
+      "brief": "BLOOM: Too Fresh is a comedy spec ad for a fictional air freshener, made as my entry to the OpenArt Ad Awards 2026 (September 2026). Images were made in GPT Image, video in Seedance on OpenArt, and the voiceover and sound were added in post. The budget was $200, so every render had to earn its resolution.",
+      "what_i_did": [
+        "Concept for a comedy spot about a fictional air freshener.",
+        "Generated the images in GPT Image and the video in Seedance on OpenArt.",
+        "Added the voiceover and sound in post.",
+        "Ran a resolution ladder to stay inside $200: test everything cheap, pay for resolution only where it shows."
+      ],
+      "tools": [
+        "GPT Image",
+        "Seedance",
+        "OpenArt",
+        "AI voice & sound in post"
+      ],
+      "note": "Spec ad. BLOOM is a fictional brand.",
+      "media": [
+        {
+          "id": "hero",
+          "type": "video",
+          "label": "Hero loop",
+          "src": "media/bloom/hero.mp4",
+          "poster": "media/bloom/poster.jpg",
+          "alt": "Still from BLOOM: Too Fresh, a comedy spec ad for a fictional air freshener"
+        },
+        {
+          "id": "film",
+          "type": "embed",
+          "label": "Watch the spot",
+          "url": "",
+          "src": "media/bloom/spot.mp4",
+          "poster": "media/bloom/poster.jpg",
+          "alt": "BLOOM: Too Fresh, the finished spot"
+        },
+        {
+          "id": "still-1",
+          "type": "image",
+          "label": "Still 1",
+          "src": "media/bloom/still-1.jpg",
+          "alt": "Still from BLOOM: Too Fresh"
+        },
+        {
+          "id": "still-2",
+          "type": "image",
+          "label": "Still 2",
+          "src": "media/bloom/still-2.jpg",
+          "alt": "Still from BLOOM: Too Fresh"
+        }
+      ],
+      "sections": [
+        {
+          "type": "film",
+          "heading": "The spot",
+          "media": "film"
+        },
+        {
+          "type": "steps",
+          "heading": "A $200 resolution ladder",
+          "intro": "Each prompt climbs only as high as the shot needs.",
+          "items": [
+            {
+              "title": "480p",
+              "body": "Every prompt tested here first."
+            },
+            {
+              "title": "720p",
+              "body": "Finals."
+            },
+            {
+              "title": "1080p",
+              "body": "Wide shots and shots with text, where resolution shows."
+            },
+            {
+              "title": "Post",
+              "body": "Voiceover and sound added in the edit."
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "heading": "Frames",
+          "media": [
+            "still-1",
+            "still-2"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "value": "$200",
+          "label": "total budget"
+        },
+        {
+          "value": "480p",
+          "label": "every prompt tested before paying for more"
+        },
+        {
+          "value": "1080p",
+          "label": "only for wide and text shots"
+        }
+      ],
+      "credits": [
+        {
+          "role": "Concept, generation, edit",
+          "name": "Somar Awad"
+        },
+        {
+          "role": "Entered in",
+          "name": "OpenArt Ad Awards 2026"
+        }
+      ],
+      "links": []
+    },
+    {
+      "slug": "novara",
+      "title": "NOVARA",
+      "category": "Spec ad · Pipeline",
+      "year": "2026",
+      "role": "Concept, pipeline, generation",
+      "published": true,
+      "featured": false,
+      "wip": true,
+      "order": 4,
+      "palette": [
+        "#140e0a",
+        "#6b4426"
+      ],
+      "tagline": "A spec ad for a fictional Milan espresso brand, made entirely in ComfyUI on a 10 GB GPU.",
+      "summary": "Spec ad for a fictional Milan espresso brand, made entirely in ComfyUI on a 10 GB GPU: brief to MP4 through my own planning, critique and repair nodes.",
+      "brief": "NOVARA is a spec ad for a fictional Milan espresso brand, made entirely in ComfyUI on a 10 GB GPU. The point is the pipeline: a brief goes in, and every stage that usually breaks AI advertising (the customer changing face between shots, the logo melting, a weak shot slipping through) has a node that catches it.",
+      "what_i_did": [
+        "Designed the pipeline end to end, brief to finished MP4.",
+        "Keyframes: generated the first shot, then edited each later shot from the previous one with Qwen Image Edit and a next-scene LoRA, so the same customer appears in every shot.",
+        "Built the Shot Critic: Gemini reviews every shot three times and takes a majority vote, then routes it.",
+        "Used Detail Fixer to repair the logo only on flagged shots, with a keep-better gate.",
+        "Made image-to-video switchable per shot: local Wan, local MiniMax H3, or API models such as Kling."
+      ],
+      "tools": [
+        "ComfyUI",
+        "Custom nodes (Python)",
+        "Qwen Image Edit",
+        "Next-scene LoRA",
+        "Gemini",
+        "SAM 3",
+        "Wan",
+        "MiniMax H3",
+        "Kling"
+      ],
+      "note": "Spec ad. NOVARA is a fictional brand.",
+      "media": [
+        {
+          "id": "hero",
+          "type": "video",
+          "label": "Hero loop",
+          "src": "media/novara/hero.mp4",
+          "poster": "media/novara/poster.jpg",
+          "alt": "Still from NOVARA, a spec ad for a fictional Milan espresso brand"
+        },
+        {
+          "id": "film",
+          "type": "embed",
+          "label": "Watch the spot",
+          "url": "",
+          "src": "media/novara/spot.mp4",
+          "poster": "media/novara/poster.jpg",
+          "alt": "NOVARA, the finished spot"
+        },
+        {
+          "id": "graph",
+          "type": "image",
+          "label": "ComfyUI graph",
+          "src": "media/novara/comfyui-graph.png",
+          "alt": "The NOVARA ComfyUI graph",
+          "caption": "The full graph in ComfyUI."
+        },
+        {
+          "id": "keyframes",
+          "type": "image",
+          "label": "Keyframe sequence",
+          "src": "media/novara/keyframes.jpg",
+          "alt": "Keyframes for NOVARA, each edited from the previous one so the same customer appears in every shot",
+          "caption": "Each keyframe is edited from the previous one, so the customer stays the same person."
+        },
+        {
+          "id": "logo",
+          "type": "compare",
+          "label": "Logo repair",
+          "before": "media/novara/logo-before.jpg",
+          "after": "media/novara/logo-after.jpg",
+          "alt_before": "A NOVARA shot flagged for a garbled logo",
+          "alt_after": "The same shot after Detail Fixer repaired the logo",
+          "caption": "A flagged shot before and after Detail Fixer."
+        }
+      ],
+      "sections": [
+        {
+          "type": "pipeline",
+          "heading": "Brief in, MP4 out",
+          "intro": "Every stage runs in one ComfyUI graph. Highlighted stages are my own nodes.",
+          "pipeline": "novara"
+        },
+        {
+          "type": "gallery",
+          "heading": "Keyframes",
+          "media": [
+            "keyframes",
+            "graph"
+          ]
+        },
+        {
+          "type": "compare",
+          "heading": "Logo repair on a flagged shot",
+          "media": [
+            "logo"
+          ]
+        },
+        {
+          "type": "film",
+          "heading": "The spot",
+          "media": "film"
+        }
+      ],
+      "results": [
+        {
+          "value": "10 GB",
+          "label": "GPU, the whole ad made in ComfyUI"
+        },
+        {
+          "value": "3×",
+          "label": "Gemini reviews per shot, majority vote"
+        },
+        {
+          "value": "4",
+          "label": "routes: pass, detail fix, consistency fix, re-render"
+        }
+      ],
+      "credits": [
+        {
+          "role": "Concept, pipeline, generation",
+          "name": "Somar Awad"
+        }
+      ],
+      "links": [
+        {
+          "label": "Detail Fixer case study",
+          "url": "work/comfyui-detailfixer/"
+        },
+        {
+          "label": "Shot Planner case study",
+          "url": "work/comfyui-shotplanner/"
+        }
+      ]
+    },
+    {
+      "slug": "comfyui-detailfixer",
+      "title": "ComfyUI-DetailFixer",
+      "category": "Open-source tool",
+      "year": "",
+      "role": "Author",
+      "published": true,
+      "featured": false,
+      "wip": false,
+      "order": 5,
+      "palette": [
+        "#101113",
+        "#5a5f66"
+      ],
+      "tagline": "Fixes garbled logos, faces or any area you name in a generated image. Everything else stays untouched.",
+      "summary": "Open-source ComfyUI node: name an area, and it fixes only that area (a garbled logo, a face) while everything else stays untouched.",
+      "brief": "Generated images often get almost everything right and one thing wrong: the logo is garbled, a face is off. Regenerating the whole frame loses what was good. ComfyUI-DetailFixer fixes only the area you name. SAM 3 finds each area, an edit model regenerates just that area from a reference, and the result is blended back so the rest of the image is untouched.",
+      "what_i_did": [
+        "Wrote the node in Python and published it as open source.",
+        "Used SAM 3 to find each named area: a logo, a face, anything you can describe.",
+        "Made the edit model switchable: local Qwen on a 10 GB GPU, or Nano Banana 2 / GPT Image 2 via API.",
+        "Blended each fix back so everything outside the area stays exactly as it was."
+      ],
+      "tools": [
+        "Python",
+        "ComfyUI",
+        "SAM 3",
+        "Qwen Image Edit",
+        "Nano Banana 2",
+        "GPT Image 2"
+      ],
+      "note": "",
+      "media": [
+        {
+          "id": "hero",
+          "type": "compare",
+          "label": "Logo fix",
+          "before": "media/detailfixer/before.jpg",
+          "after": "media/detailfixer/after.jpg",
+          "alt_before": "Generated image with a garbled logo",
+          "alt_after": "The same image with only the logo regenerated from a reference",
+          "caption": "Only the named area changes."
+        },
+        {
+          "id": "node",
+          "type": "image",
+          "label": "Node in ComfyUI",
+          "src": "media/detailfixer/node.png",
+          "alt": "The DetailFixer node in a ComfyUI graph",
+          "caption": "The node in a ComfyUI graph."
+        }
+      ],
+      "sections": [
+        {
+          "type": "pipeline",
+          "heading": "How it works",
+          "intro": "One node. Everything outside the named area is left alone.",
+          "pipeline": "detailfixer"
+        },
+        {
+          "type": "gallery",
+          "heading": "In ComfyUI",
+          "media": [
+            "node"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "value": "10 GB",
+          "label": "GPU is enough to run it locally with Qwen"
+        },
+        {
+          "value": "3",
+          "label": "edit models: local Qwen, Nano Banana 2, GPT Image 2"
+        }
+      ],
+      "credits": [
+        {
+          "role": "Author",
+          "name": "Somar Awad"
+        }
+      ],
+      "links": [
+        {
+          "label": "Code on GitHub",
+          "url": "https://github.com/Somarawad/ComfyUI-DetailFixer"
+        }
+      ]
+    },
+    {
+      "slug": "comfyui-shotplanner",
+      "title": "ComfyUI-ShotPlanner",
+      "category": "Open-source tool",
+      "year": "",
+      "role": "Author",
+      "published": true,
+      "featured": false,
+      "wip": false,
+      "order": 6,
+      "palette": [
+        "#0d1118",
+        "#34506e"
+      ],
+      "tagline": "Turns a brief or a script into a shot list with image and video prompts for every shot.",
+      "summary": "Open-source ComfyUI nodes: brief or script to shot list with image and video prompts per shot, then Shot Critic and Ad Assembler.",
+      "brief": "ComfyUI-ShotPlanner turns a brief or a script into a shot list, with an image prompt and a video prompt for every shot. It runs on Gemini, Claude or GPT, or offline. The same pack includes the Shot Critic, which reviews each generated shot and routes it, and the Ad Assembler, which cuts the shots into a finished ad. Together they are the planning and finishing ends of the NOVARA pipeline.",
+      "what_i_did": [
+        "Wrote the nodes in Python and published them as open source.",
+        "Shot Planner: a brief or script in, a shot list out, with image and video prompts per shot.",
+        "Shot Critic: Gemini reviews every shot three times and takes a majority vote, routing each to pass, detail fix, consistency fix or re-render.",
+        "Ad Assembler: timeline, transitions, supers, end card and audio mix, out to MP4."
+      ],
+      "tools": [
+        "Python",
+        "ComfyUI",
+        "Gemini",
+        "Claude",
+        "OpenAI GPT",
+        "Offline mode"
+      ],
+      "note": "",
+      "media": [
+        {
+          "id": "hero",
+          "type": "image",
+          "label": "Shot list",
+          "src": "media/shotplanner/hero.png",
+          "alt": "A shot list generated by ComfyUI-ShotPlanner, with image and video prompts per shot"
+        },
+        {
+          "id": "nodes",
+          "type": "image",
+          "label": "Nodes in ComfyUI",
+          "src": "media/shotplanner/nodes.png",
+          "alt": "Shot Planner, Shot Critic and Ad Assembler nodes in ComfyUI",
+          "caption": "The three nodes in a ComfyUI graph."
+        }
+      ],
+      "sections": [
+        {
+          "type": "pipeline",
+          "heading": "Three nodes, both ends of the pipeline",
+          "intro": "Highlighted stages are the nodes in this pack.",
+          "pipeline": "shotplanner"
+        },
+        {
+          "type": "gallery",
+          "heading": "In ComfyUI",
+          "media": [
+            "nodes"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "value": "3",
+          "label": "nodes: Shot Planner, Shot Critic, Ad Assembler"
+        },
+        {
+          "value": "4",
+          "label": "ways to run: Gemini, Claude, GPT or offline"
+        },
+        {
+          "value": "2",
+          "label": "prompts per shot: image and video"
+        }
+      ],
+      "credits": [
+        {
+          "role": "Author",
+          "name": "Somar Awad"
+        }
+      ],
+      "links": [
+        {
+          "label": "Code on GitHub",
+          "url": "https://github.com/Somarawad/ComfyUI-ShotPlanner"
+        }
+      ]
+    },
+    {
+      "slug": "ai-youtube-channel",
+      "title": "AI YouTube channel",
+      "category": "Channel",
+      "year": "2025–2026",
+      "role": "Creator",
+      "published": true,
+      "featured": false,
+      "wip": false,
+      "order": 7,
+      "palette": [
+        "#140b0b",
+        "#6e2a2a"
+      ],
+      "card_stats": true,
+      "tagline": "Grew and monetized an AI channel by testing formats and following the audience data.",
+      "summary": "Grew and monetized a channel to 12,000+ subscribers, 1.1M views and 46K watch hours by testing formats and adjusting to audience data.",
+      "brief": "Between 2025 and 2026 I grew and monetized an AI YouTube channel to more than 12,000 subscribers, 1.1 million views and 46,000 watch hours. The method: test formats, read the audience data, adjust, repeat.",
+      "what_i_did": [
+        "Tested formats and adjusted to what the audience data showed.",
+        "Grew the channel past 12,000 subscribers and 1.1M views.",
+        "Monetized it."
+      ],
+      "tools": [
+        "Format testing",
+        "YouTube Analytics"
+      ],
+      "note": "The channel isn't linked here; the numbers below are from its analytics.",
+      "media": [
+        {
+          "id": "analytics",
+          "type": "image",
+          "label": "Analytics screenshot",
+          "src": "media/youtube/analytics.png",
+          "alt": "YouTube Studio analytics for the channel",
+          "caption": "Channel analytics.",
+          "aspect": "16/10"
+        }
+      ],
+      "sections": [
+        {
+          "type": "stats",
+          "heading": "Channel numbers",
+          "stats": [
+            {
+              "value": "12,000+",
+              "label": "subscribers"
+            },
+            {
+              "value": "1.1M",
+              "label": "views"
+            },
+            {
+              "value": "46K",
+              "label": "watch hours"
+            }
+          ],
+          "media": "analytics"
+        }
+      ],
+      "results": [],
+      "credits": [
+        {
+          "role": "Creator",
+          "name": "Somar Awad"
+        }
+      ],
+      "links": []
+    },
+    {
+      "slug": "puma-spec-concept",
+      "title": "Unofficial PUMA AI spec concept",
+      "card_title": "PUMA AI spec concept (unofficial)",
+      "category": "Spec concept",
+      "year": "2025",
+      "role": "Concept, generation, edit",
+      "published": true,
+      "featured": false,
+      "wip": false,
+      "order": 8,
+      "palette": [
+        "#0f0f10",
+        "#4a4d52"
+      ],
+      "tagline": "A self-initiated AI spec concept, made with Marc Baz.",
+      "summary": "Self-initiated spec concept with Marc Baz: concept, generation and edit with Veo, Nano Banana and Kling. Not affiliated with PUMA.",
+      "brief": "A self-initiated spec concept made with Marc Baz in 2025. We took it from concept through generation to the edit, using Veo, Nano Banana and Kling. It is unofficial: PUMA did not commission, approve or endorse it.",
+      "what_i_did": [
+        "Self-initiated the concept with Marc Baz.",
+        "Concept, generation and edit, together with Marc Baz.",
+        "Generated with Veo, Nano Banana and Kling."
+      ],
+      "tools": [
+        "Veo",
+        "Nano Banana",
+        "Kling"
+      ],
+      "note": "Unofficial, self-initiated spec concept. Not affiliated with, commissioned or endorsed by PUMA. PUMA is a trademark of its owner.",
+      "note_prominent": true,
+      "media": [
+        {
+          "id": "hero",
+          "type": "video",
+          "label": "Hero loop",
+          "src": "media/puma/hero.mp4",
+          "poster": "media/puma/poster.jpg",
+          "alt": "Still from an unofficial AI spec concept"
+        },
+        {
+          "id": "film",
+          "type": "embed",
+          "label": "Watch the concept",
+          "url": "",
+          "src": "media/puma/spot.mp4",
+          "poster": "media/puma/poster.jpg",
+          "alt": "The unofficial spec concept"
+        },
+        {
+          "id": "still-1",
+          "type": "image",
+          "label": "Still 1",
+          "src": "media/puma/still-1.jpg",
+          "alt": "Still from the spec concept"
+        },
+        {
+          "id": "still-2",
+          "type": "image",
+          "label": "Still 2",
+          "src": "media/puma/still-2.jpg",
+          "alt": "Still from the spec concept"
+        }
+      ],
+      "sections": [
+        {
+          "type": "film",
+          "heading": "The concept",
+          "media": "film"
+        },
+        {
+          "type": "gallery",
+          "heading": "Frames",
+          "media": [
+            "still-1",
+            "still-2"
+          ]
+        }
+      ],
+      "results": [],
+      "credits": [
+        {
+          "role": "Concept, generation, edit",
+          "name": "Somar Awad & Marc Baz"
+        }
+      ],
+      "links": []
+    }
+  ],
+  "pipelines": {
+    "novara": {
+      "title": "NOVARA pipeline",
+      "nodes": [
+        {
+          "label": "Brief",
+          "detail": "The ad as a short written brief.",
+          "kind": "io"
+        },
+        {
+          "label": "Shot Planner",
+          "detail": "Brief to shot list, with image and video prompts per shot.",
+          "custom": true
+        },
+        {
+          "label": "Keyframes",
+          "detail": "First shot generated. Each later shot edited from the previous one (Qwen Image Edit + next-scene LoRA): same customer in every shot."
+        },
+        {
+          "label": "Shot Critic",
+          "detail": "Gemini reviews every shot 3 times, majority vote, then routes it:",
+          "custom": true,
+          "tags": [
+            "Pass",
+            "Detail fix",
+            "Consistency fix",
+            "Re-render"
+          ]
+        },
+        {
+          "label": "Detail Fixer",
+          "detail": "Repairs the logo on flagged shots only, with a keep-better gate.",
+          "custom": true
+        },
+        {
+          "label": "Image-to-video",
+          "detail": "Per shot, through a switchable engine:",
+          "tags": [
+            "Wan · local",
+            "MiniMax H3 · local",
+            "Kling · API"
+          ]
+        },
+        {
+          "label": "Ad Assembler",
+          "detail": "Timeline, transitions, supers, end card, audio mix.",
+          "custom": true
+        },
+        {
+          "label": "MP4",
+          "detail": "The finished spot.",
+          "kind": "io"
+        }
+      ]
+    },
+    "detailfixer": {
+      "title": "DetailFixer pipeline",
+      "nodes": [
+        {
+          "label": "Generated image",
+          "detail": "Plus the name of the area to fix: \"logo\", \"face\", anything.",
+          "kind": "io"
+        },
+        {
+          "label": "SAM 3",
+          "detail": "Finds each named area and masks it."
+        },
+        {
+          "label": "Edit model",
+          "detail": "Regenerates only that area, from a reference:",
+          "custom": true,
+          "tags": [
+            "Qwen · local 10 GB",
+            "Nano Banana 2 · API",
+            "GPT Image 2 · API"
+          ]
+        },
+        {
+          "label": "Blend back",
+          "detail": "The fix is blended into the original. Everything else stays untouched.",
+          "custom": true
+        },
+        {
+          "label": "Fixed image",
+          "detail": "Same frame, repaired area.",
+          "kind": "io"
+        }
+      ]
+    },
+    "shotplanner": {
+      "title": "ShotPlanner pipeline",
+      "nodes": [
+        {
+          "label": "Brief or script",
+          "detail": "Plain text in.",
+          "kind": "io"
+        },
+        {
+          "label": "Shot Planner",
+          "detail": "Writes the shot list, with an image prompt and a video prompt per shot:",
+          "custom": true,
+          "tags": [
+            "Gemini",
+            "Claude",
+            "GPT",
+            "Offline"
+          ]
+        },
+        {
+          "label": "Generate",
+          "detail": "Images and video from the prompts, with any models."
+        },
+        {
+          "label": "Shot Critic",
+          "detail": "Gemini reviews every shot 3 times, majority vote, then routes it:",
+          "custom": true,
+          "tags": [
+            "Pass",
+            "Detail fix",
+            "Consistency fix",
+            "Re-render"
+          ]
+        },
+        {
+          "label": "Ad Assembler",
+          "detail": "Timeline, transitions, supers, end card, audio mix.",
+          "custom": true
+        },
+        {
+          "label": "MP4",
+          "detail": "The finished ad.",
+          "kind": "io"
+        }
+      ]
+    }
+  }
+}
