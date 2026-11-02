@@ -1,0 +1,43 @@
+<article class="case" style="{{palette_style}}">
+  <header class="case__head wrap">
+    <p class="case__back"><a href="{{root}}#work"><span aria-hidden="true">←</span> All work</a></p>
+    <p class="eyebrow">{{category}}{{year_eyebrow}}{{wip_badge}}</p>
+    <h1 class="case__title">{{title}}</h1>
+    <p class="case__tagline">{{tagline}}</p>
+    <dl class="meta">
+      {{meta}}
+    </dl>
+    {{note}}
+  </header>
+
+  <div class="case__hero wrap wrap--wide">
+    {{hero}}
+  </div>
+
+  <div class="wrap case__intro">
+    <section class="case__brief" aria-labelledby="brief-title">
+      <h2 id="brief-title" class="label">The brief</h2>
+      <p class="case__brief-text">{{brief}}</p>
+    </section>
+    <section class="case__did" aria-labelledby="did-title">
+      <h2 id="did-title" class="label">What I did</h2>
+      <ul class="did">
+        {{what_i_did}}
+      </ul>
+      {{tools}}
+    </section>
+  </div>
+
+  {{sections}}
+
+  {{results}}
+
+  <div class="wrap case__credits-row">
+    {{credits}}
+    {{links}}
+  </div>
+
+  {{next}}
+</article>
+
+{{contact}}

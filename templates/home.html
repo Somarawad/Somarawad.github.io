@@ -1,0 +1,48 @@
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero__grid">
+    <div class="hero__text">
+      <p class="eyebrow">{{site_role}} · {{site_location}}</p>
+      <h1 id="hero-title" class="hero__title">{{headline}}</h1>
+      <p class="hero__lede">{{supporting}}</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#work">See the work</a>
+        <a class="btn" href="mailto:{{email}}">Email me</a>
+        {{reel_button}}
+      </div>
+    </div>
+    <div class="hero__reel">
+      {{showreel}}
+    </div>
+  </div>
+  <div class="wrap">
+    <ol class="flow" aria-label="How I work">
+      {{flow}}
+    </ol>
+  </div>
+</section>
+
+<section id="work" class="section work" aria-labelledby="work-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="work-title" class="section__title">Selected work</h2>
+      <p class="section__aside muted">{{project_count}} projects · client work, films, spec ads and open-source tools</p>
+    </div>
+    <ul class="grid" role="list">
+      {{cards}}
+    </ul>
+  </div>
+</section>
+
+<section class="section toolkit" aria-labelledby="toolkit-title">
+  <div class="wrap toolkit__grid">
+    <div>
+      <h2 id="toolkit-title" class="section__title">Toolkit</h2>
+      <p class="muted toolkit__note">What I reach for on a job. <a href="about/">More about me</a>.</p>
+    </div>
+    <div class="toolkit__groups">
+      {{tool_groups}}
+    </div>
+  </div>
+</section>
+
+{{contact}}

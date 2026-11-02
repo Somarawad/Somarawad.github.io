@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{canonical}}">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0c0b0a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f3f0ea" media="(prefers-color-scheme: light)">
+<meta property="og:type" content="{{og_type}}">
+<meta property="og:site_name" content="{{site_name}}">
+<meta property="og:title" content="{{og_title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="{{og_image}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{og_title}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{og_title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="{{og_image}}">
+<link rel="icon" href="{{root}}assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{{root}}assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{{root}}assets/apple-touch-icon.png">
+<link rel="preload" href="{{root}}assets/fonts/instrument-serif-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{root}}assets/css/site.css?v={{version}}">
+<script>(function(){try{var t=localStorage.getItem("theme");}catch(e){}if(t!=="light"&&t!=="dark"){t=window.matchMedia&&matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";}document.documentElement.setAttribute("data-theme",t);document.documentElement.classList.add("js");})();</script>
+<script src="{{root}}assets/js/site.js?v={{version}}" defer></script>
+{{head_extra}}
+</head>
+<body class="{{body_class}}">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{root}}" aria-label="{{site_name}}, home">
+      <span class="brand__name">{{site_name}}</span>
+      <span class="brand__role">{{site_role}} · {{site_location}}</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="{{root}}#work"{{nav_work}}>Work</a>
+      <a href="{{root}}about/"{{nav_about}}>About</a>
+      <a href="{{root}}#contact">Contact</a>
+      <button class="theme-toggle" type="button" aria-label="Switch to light theme" data-theme-toggle>
+        <svg class="theme-toggle__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+{{content}}
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <p class="site-footer__name">{{site_name}} <span class="muted">· {{site_role}}, {{site_location}}</span></p>
+    <ul class="site-footer__links">
+      <li><a href="mailto:{{email}}">{{email}}</a></li>
+      <li><a href="{{linkedin}}" rel="me noopener">LinkedIn</a></li>
+      <li><a href="{{github}}" rel="me noopener">GitHub</a></li>
+    </ul>
+    <p class="site-footer__fine muted">No cookies, no tracking. Spec work features fictional brands unless noted.</p>
+  </div>
+</footer>
+</body>
+</html>
