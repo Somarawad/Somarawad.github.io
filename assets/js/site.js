@@ -62,10 +62,13 @@
       frame.addEventListener("pointerdown", function (e) {
         if (e.button !== undefined && e.button !== 0) return;
         dragging = true;
+        if (e.pointerType === "mouse") e.preventDefault();
+        range.focus({ preventScroll: true });
         try { frame.setPointerCapture(e.pointerId); } catch (err) {}
         set(fromEvent(e));
       });
       frame.addEventListener("pointermove", function (e) { if (dragging) set(fromEvent(e)); });
+      frame.addEventListener("dragstart", function (e) { e.preventDefault(); });
       ["pointerup", "pointercancel", "lostpointercapture"].forEach(function (n) {
         frame.addEventListener(n, function () { dragging = false; });
       });

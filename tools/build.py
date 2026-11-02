@@ -241,7 +241,9 @@ def render_compare(slot: dict, title: str, pal, root: str, bare: bool = False) -
         alt = slot.get(f"alt_{key}", f"{label}, {which}")
         if exists(src):
             return img_tag(src, alt, root)
-        return placeholder(title, f"{label} · {which}", src, pal, f"ph--{key}", alt)
+        # Both halves carry the same slate text so it lines up across the divider;
+        # the Before / After tags already say which side is which.
+        return placeholder(title, label, src, pal, f"ph--{key}", alt)
 
     cap = slot.get("caption")
     figcap = f'<figcaption id="{cid}-cap">{inline(cap, root)}</figcaption>' if cap else ""
