@@ -307,7 +307,19 @@ main:focus { outline: none; }
   font: 500 0.62rem/1 var(--mono); letter-spacing: 0.16em; text-transform: uppercase; color: rgba(255,255,255,.8);
 }
 .media--reel .ph__slate { padding-bottom: 36px; }
-.reel-full { margin-top: 1rem; }
+.reel-full { display: none; }
+.reel-full:target, .reel-full.is-open {
+  display: flex; position: fixed; inset: 0; z-index: 1000; align-items: center; justify-content: center;
+  padding: clamp(16px, 4vw, 64px); background: rgba(8, 7, 6, 0.92);
+}
+.reel-full__inner { width: min(1280px, 100%); }
+.reel-full__close {
+  position: absolute; top: 12px; right: 16px; width: 44px; height: 44px; display: grid; place-items: center;
+  font-size: 2rem; line-height: 1; color: #fff; text-decoration: none; border-radius: 50%;
+}
+.reel-full__close:hover, .reel-full__close:focus-visible { background: rgba(255,255,255,.12); }
+.media--reel.has-controls::after { display: none; }
+html.reel-open { overflow: hidden; }
 
 .flow {
   list-style: none; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));

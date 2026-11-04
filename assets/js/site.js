@@ -95,7 +95,10 @@
     /* ---- videos: play muted loops only while in view; respect reduced motion ---- */
     var loops = Array.prototype.slice.call(document.querySelectorAll("video[data-inview]"));
     if (reduceMotion) {
-      loops.forEach(function (v) { v.removeAttribute("autoplay"); v.pause(); v.controls = true; });
+      loops.forEach(function (v) {
+        v.removeAttribute("autoplay"); v.pause(); v.controls = true;
+        var fig = v.closest(".media--reel"); if (fig) fig.classList.add("has-controls");
+      });
     } else if ("IntersectionObserver" in window) {
       var vio = new IntersectionObserver(function (entries) {
         entries.forEach(function (en) {
@@ -105,6 +108,31 @@
         });
       }, { threshold: 0.35 });
       loops.forEach(function (v) { vio.observe(v); });
+    }
+
+    /* ---- full reel: open as an overlay with sound ---- */
+    var reelBox = document.getElementById("reel-full");
+    if (reelBox) {
+      var reelVid = reelBox.querySelector("video");
+      var opener = null;
+      var openReel = function () {
+        reelBox.classList.add("is-open"); document.documentElement.classList.add("reel-open");
+        if (reelVid) { reelVid.muted = false; var p = reelVid.play(); if (p && p.catch) p.catch(function () {}); }
+        var c = reelBox.querySelector(".reel-full__close"); if (c) c.focus();
+      };
+      var closeReel = function () {
+        reelBox.classList.remove("is-open"); document.documentElement.classList.remove("reel-open");
+        if (reelVid) reelVid.pause();
+        if (location.hash === "#reel-full" && history.replaceState) history.replaceState(null, "", location.pathname + location.search);
+        if (opener) opener.focus();
+      };
+      Array.prototype.forEach.call(document.querySelectorAll('a[href="#reel-full"]'), function (a) {
+        a.addEventListener("click", function (e) { e.preventDefault(); opener = a; openReel(); });
+      });
+      reelBox.querySelector(".reel-full__close").addEventListener("click", function (e) { e.preventDefault(); closeReel(); });
+      reelBox.addEventListener("click", function (e) { if (e.target === reelBox) closeReel(); });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape" && reelBox.classList.contains("is-open")) closeReel(); });
+      if (location.hash === "#reel-full") openReel();
     }
 
     /* ---- card hover previews (desktop pointers only) ---- */
