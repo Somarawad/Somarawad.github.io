@@ -4,16 +4,16 @@
     "role": "Creative Technologist",
     "location": "Montreal",
     "url": "https://somarawad.github.io/",
-    "title": "Somar Awad: Creative Technologist, AI video for advertising",
-    "description": "Somar Awad, creative technologist in Montreal. AI video for advertising, and custom ComfyUI tools that keep it on brand.",
-    "headline": "I make AI video for advertising and build the tools that *keep it on brand.*",
-    "supporting": "From concept to generated shots, image-to-video, client revisions and the finished spot. Plus custom ComfyUI tools that fix what makes AI footage unusable: character drift, inconsistent environments, garbled logos.",
+    "title": "Somar Awad: Creative Technologist, generative AI image & video",
+    "description": "Somar Awad, creative technologist in Montreal. Generative AI images and video for film and advertising, and custom ComfyUI tools that keep them consistent.",
+    "headline": "I make AI images and video for film and advertising, and build the tools that *keep them consistent.*",
+    "supporting": "From concept and previs to generated shots, image-to-video, revisions and the finished piece. Plus custom ComfyUI tools that fix what makes AI footage unusable: character drift, inconsistent environments, garbled logos.",
     "flow": [
       "Concept",
-      "Generated shots",
+      "Previs & frames",
       "Image-to-video",
-      "Client revisions",
-      "Finished spot"
+      "Revisions",
+      "Finished piece"
     ],
     "open_to": "Open to roles as AI video creator, generative AI artist or creative technologist.",
     "email": "somar.awad90@gmail.com",
@@ -34,7 +34,7 @@
       "label": "Showreel",
       "src": "media/reel/showreel.mp4",
       "poster": "media/reel/poster.jpg",
-      "alt": "Showreel: a montage of AI-generated advertising shots by Somar Awad",
+      "alt": "Showreel 2026: AI environments, a short film, ads and production fixes by Somar Awad",
       "embed": ""
     },
     "showreel_full": {
@@ -47,9 +47,9 @@
       "alt": "Full showreel with sound"
     },
     "about": {
-      "intro": "I'm a creative technologist in Montreal. I make AI video for advertising, and I build the tools that keep it on brand.",
+      "intro": "I'm a creative technologist in Montreal. I make AI images and video for film and advertising, and I build the tools that keep them consistent.",
       "bio": [
-        "My work runs the whole way from concept to generated shots, image-to-video, client revisions and the finished spot. Alongside it I write custom ComfyUI nodes in Python that fix what makes AI footage unusable in a real job: characters that drift between shots, environments that change, logos that come out garbled.",
+        "My work runs the whole way from concept to generated shots, image-to-video, client revisions and the finished piece. Alongside it I write custom ComfyUI nodes in Python that fix what makes AI footage unusable in a real job: characters that drift between shots, environments that change, logos that come out garbled.",
         "I trained in VFX (FX TD diploma, Campus VFX, Montreal, 2023–2024), which is where the pipeline thinking comes from. Before that I spent seven years at Emirates as cabin crew, ending in Business Class: premium client service, and staying calm under pressure, every day. Most recently I worked in IT operations at oXya (2024–2026).",
         "Since June 2025 I've been freelancing for production teams in Saudi Arabia, delivering AI imagery and video inside productions that also use CGI and VFX."
       ],
@@ -140,13 +140,13 @@
         "#8a5a2b"
       ],
       "tagline": "AI imagery and video inside real productions, alongside CGI and VFX.",
-      "summary": "Half the visuals of a ten-minute presentation film, historical scenes for a promotional film, destination views for a rail campaign, and shots an earlier VFX approach couldn't deliver.",
+      "summary": "Heritage environments for a promotional film, AI shots in a ten-minute healthcare presentation film, a rail campaign built around an empty-set photoshoot, and a green-screen shot that replaced the studio's CG in the final ad.",
       "brief": "Since June 2025 I've worked freelance with production teams in Saudi Arabia, delivering AI imagery and video inside productions that also use CGI and conventional VFX. Clients aren't named here, so each job is described by what it needed.",
       "what_i_did": [
-        "Produced about half the visuals of a ten-minute presentation film that mixes AI imagery, video generation, CGI and VFX.",
-        "Built historical environments and characters for a promotional film, revising frames from detailed cultural notes (architecture, wardrobe, crowd density, props) before converting the approved frames to video.",
-        "Made destination backgrounds for a rail campaign: replaced the window views in photographed train interiors and matched the lighting to the carriage and the passengers.",
-        "Rescued shots an earlier VFX approach couldn't deliver: a head-through-ceiling gag, a frozen performer with only his headscarf moving, and a camera move extended into a transition."
+        "Built historical environments and characters for a heritage promotional film (Diriyah), revising frames from detailed cultural notes (architecture, wardrobe, crowd density, props) before converting the approved frames to video.",
+        "Produced about half the visuals of a ten-minute healthcare presentation film that mixes AI imagery, video generation, CGI and VFX, turning the studio's 3D blocking into finished AI frames.",
+        "Rail campaign: the actors were photographed on an empty set. I added the train carriage, the window views and matched the lighting to the passengers (final retouch by another artist).",
+        "Rescued shots an earlier VFX approach couldn't deliver: the head-through-the-ceiling shot from green screen (my AI version replaced the studio's CG and was used in the final ad), a frozen performer with only his headscarf moving, and a camera move extended into a transition."
       ],
       "tools": [
         "AI image generation",
@@ -162,55 +162,62 @@
           "label": "Hero loop",
           "src": "media/client/hero.mp4",
           "poster": "media/client/poster.jpg",
-          "alt": "Selected AI shots from client productions"
+          "alt": "AI shots from a heritage promotional film: Diriyah's mud-brick streets and a stadium at night"
         },
         {
-          "id": "train",
-          "type": "compare",
-          "label": "Rail campaign",
-          "before": "media/client/train-before.jpg",
-          "after": "media/client/train-after.jpg",
-          "alt_before": "Photographed train interior with the original window view",
-          "alt_after": "The same interior with a generated destination view and matched lighting",
-          "caption": "Rail campaign: window view replaced, lighting matched to the carriage and passengers."
+          "id": "rail-1",
+          "type": "image",
+          "label": "Rail campaign 1",
+          "src": "media/client/rail-1.jpg",
+          "alt": "Final rail campaign visual: a boy in the train carriage, with the empty-set photoshoot as an inset",
+          "caption": "Inset: the photoshoot as delivered, on an empty set."
         },
         {
-          "id": "historical",
-          "type": "compare",
-          "label": "Historical scene",
-          "before": "media/client/historical-before.jpg",
-          "after": "media/client/historical-after.jpg",
-          "alt_before": "First generated frame of a historical scene",
-          "alt_after": "The frame revised from cultural notes on architecture, wardrobe, crowd density and props",
-          "caption": "Promotional film: a historical frame before and after revision from cultural notes."
+          "id": "rail-2",
+          "type": "image",
+          "label": "Rail campaign 2",
+          "src": "media/client/rail-2.jpg",
+          "alt": "Final rail campaign visual: a man celebrating by the window, with the photoshoot inset"
+        },
+        {
+          "id": "rail-3",
+          "type": "image",
+          "label": "Rail campaign 3",
+          "src": "media/client/rail-3.jpg",
+          "alt": "Final rail campaign visual: a woman celebrating by the window, with the photoshoot inset"
         },
         {
           "id": "ceiling",
-          "type": "compare",
-          "label": "Ceiling gag",
-          "before": "media/client/ceiling-before.jpg",
-          "after": "media/client/ceiling-after.jpg",
-          "alt_before": "Original plate for the head-through-ceiling gag",
-          "alt_after": "Finished head-through-ceiling gag",
-          "caption": "Rescued shot: the head-through-ceiling gag."
+          "type": "video",
+          "label": "Green screen to AI",
+          "src": "media/client/ceiling.mp4",
+          "poster": "media/client/ceiling-poster.jpg",
+          "alt": "An actor's head through a cracked ceiling, made with AI from a green-screen plate (inset)",
+          "caption": "Green-screen plate (inset) to the AI shot used in the final ad."
         },
         {
-          "id": "headscarf",
-          "type": "video",
-          "label": "Frozen performer",
-          "src": "media/client/headscarf.mp4",
-          "poster": "media/client/headscarf-poster.jpg",
-          "alt": "A frozen performer with only his headscarf moving",
-          "caption": "Rescued shot: the performer is frozen and only his headscarf moves."
+          "id": "blocking",
+          "type": "image",
+          "label": "3D blocking to AI frame",
+          "src": "media/client/blocking-to-frame.jpg",
+          "alt": "The studio's 3D crowd blocking next to the finished AI first frame",
+          "caption": "Healthcare film: the studio's 3D blocking, turned into the first frame for video."
         },
         {
-          "id": "transition",
+          "id": "healthcare",
           "type": "video",
-          "label": "Extended camera move",
-          "src": "media/client/transition.mp4",
-          "poster": "media/client/transition-poster.jpg",
-          "alt": "A camera move extended into a transition",
-          "caption": "Rescued shot: a camera move extended into a transition."
+          "label": "Healthcare film",
+          "src": "media/client/healthcare.mp4",
+          "poster": "media/client/healthcare-poster.jpg",
+          "alt": "AI shots from a healthcare presentation film"
+        },
+        {
+          "id": "cream",
+          "type": "video",
+          "label": "Skincare spots",
+          "src": "media/client/cream.mp4",
+          "poster": "media/client/cream-poster.jpg",
+          "alt": "Two vertical AI product spots for a skincare cream"
         }
       ],
       "sections": [
@@ -238,21 +245,34 @@
           ]
         },
         {
-          "type": "compare",
-          "heading": "Before / after",
-          "intro": "Drag the handle, or focus it and use the arrow keys.",
+          "type": "gallery",
+          "heading": "Rail campaign: from an empty set to a train carriage",
           "media": [
-            "train",
-            "historical",
+            "rail-1",
+            "rail-2",
+            "rail-3"
+          ]
+        },
+        {
+          "type": "gallery",
+          "heading": "Shots an earlier approach couldn't deliver",
+          "media": [
             "ceiling"
           ]
         },
         {
           "type": "gallery",
-          "heading": "Shots an earlier VFX approach couldn't deliver",
+          "heading": "Healthcare film: from 3D blocking to motion",
           "media": [
-            "headscarf",
-            "transition"
+            "blocking",
+            "healthcare"
+          ]
+        },
+        {
+          "type": "gallery",
+          "heading": "Product spots",
+          "media": [
+            "cream"
           ]
         }
       ],
@@ -286,7 +306,7 @@
       "slug": "to-nora",
       "title": "To Nora",
       "category": "Short film",
-      "year": "",
+      "year": "2026",
       "role": "Writer, director, AI generation",
       "published": true,
       "featured": true,
@@ -302,7 +322,7 @@
       "what_i_did": [
         "Wrote the film.",
         "Generated every shot: no live action, no stock footage.",
-        "Kept characters and locations consistent shot to shot across the whole film.",
+        "Kept the same character, face and locations consistent across the whole film, from bright day scenes to dark, emotional close-ups.",
         "Delivered in about a week on $600."
       ],
       "tools": [],
@@ -330,28 +350,28 @@
           "type": "image",
           "label": "Still 1",
           "src": "media/to-nora/still-1.jpg",
-          "alt": "Still from To Nora"
+          "alt": "Close-up of the same character from To Nora"
         },
         {
           "id": "still-2",
           "type": "image",
           "label": "Still 2",
           "src": "media/to-nora/still-2.jpg",
-          "alt": "Still from To Nora"
+          "alt": "Close-up of the same character from To Nora"
         },
         {
           "id": "still-3",
           "type": "image",
           "label": "Still 3",
           "src": "media/to-nora/still-3.jpg",
-          "alt": "Still from To Nora"
+          "alt": "Close-up of the same character from To Nora"
         },
         {
           "id": "still-4",
           "type": "image",
           "label": "Still 4",
           "src": "media/to-nora/still-4.jpg",
-          "alt": "Still from To Nora"
+          "alt": "Close-up of the same character from To Nora"
         }
       ],
       "sections": [
@@ -527,7 +547,7 @@
       "category": "Spec ad · Pipeline",
       "year": "2026",
       "role": "Concept, pipeline, generation",
-      "published": true,
+      "published": false,
       "featured": false,
       "wip": true,
       "order": 4,
@@ -665,7 +685,7 @@
       "slug": "comfyui-detailfixer",
       "title": "ComfyUI-DetailFixer",
       "category": "Open-source tool",
-      "year": "",
+      "year": "2026",
       "role": "Author",
       "published": true,
       "featured": false,
@@ -697,20 +717,12 @@
         {
           "id": "hero",
           "type": "compare",
-          "label": "Logo fix",
+          "label": "Logo + face fix",
           "before": "media/detailfixer/before.jpg",
           "after": "media/detailfixer/after.jpg",
-          "alt_before": "Generated image with a garbled logo",
-          "alt_after": "The same image with only the logo regenerated from a reference",
-          "caption": "Only the named area changes."
-        },
-        {
-          "id": "node",
-          "type": "image",
-          "label": "Node in ComfyUI",
-          "src": "media/detailfixer/node.png",
-          "alt": "The DetailFixer node in a ComfyUI graph",
-          "caption": "The node in a ComfyUI graph."
+          "alt_before": "SDXL product photo with a garbled logo and an uneven face",
+          "alt_after": "The same photo after Detail Fixer: logo regenerated by local Qwen, face by Nano Banana Pro",
+          "caption": "Logo slot: local Qwen on a 10 GB GPU. Face slot: Nano Banana Pro through the API slot."
         }
       ],
       "sections": [
@@ -719,13 +731,6 @@
           "heading": "How it works",
           "intro": "One node. Everything outside the named area is left alone.",
           "pipeline": "detailfixer"
-        },
-        {
-          "type": "gallery",
-          "heading": "In ComfyUI",
-          "media": [
-            "node"
-          ]
         }
       ],
       "results": [
@@ -755,7 +760,7 @@
       "slug": "comfyui-shotplanner",
       "title": "ComfyUI-ShotPlanner",
       "category": "Open-source tool",
-      "year": "",
+      "year": "2026",
       "role": "Author",
       "published": true,
       "featured": false,
@@ -787,17 +792,9 @@
         {
           "id": "hero",
           "type": "image",
-          "label": "Shot list",
-          "src": "media/shotplanner/hero.png",
-          "alt": "A shot list generated by ComfyUI-ShotPlanner, with image and video prompts per shot"
-        },
-        {
-          "id": "nodes",
-          "type": "image",
-          "label": "Nodes in ComfyUI",
-          "src": "media/shotplanner/nodes.png",
-          "alt": "Shot Planner, Shot Critic and Ad Assembler nodes in ComfyUI",
-          "caption": "The three nodes in a ComfyUI graph."
+          "label": "Video QA contact sheet",
+          "src": "media/shotplanner/hero.jpg",
+          "alt": "Shot Video QA contact sheet: sampled frames per clip, with pass and reroll verdicts"
         }
       ],
       "sections": [
@@ -806,13 +803,6 @@
           "heading": "Three nodes, both ends of the pipeline",
           "intro": "Highlighted stages are the nodes in this pack.",
           "pipeline": "shotplanner"
-        },
-        {
-          "type": "gallery",
-          "heading": "In ComfyUI",
-          "media": [
-            "nodes"
-          ]
         }
       ],
       "results": [
@@ -918,7 +908,7 @@
       "category": "Spec concept",
       "year": "2025",
       "role": "Concept, generation, edit",
-      "published": true,
+      "published": false,
       "featured": false,
       "wip": false,
       "order": 8,
