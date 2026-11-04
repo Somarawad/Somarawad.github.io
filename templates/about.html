@@ -1,0 +1,33 @@
+<section class="about wrap" aria-labelledby="about-title">
+  <div class="about__grid">
+    <div class="about__portrait">
+      {{portrait}}
+    </div>
+    <div class="about__text">
+      <p class="eyebrow">About</p>
+      <h1 id="about-title" class="about__title">{{intro}}</h1>
+      {{bio}}
+      <p class="about__open">{{open_to}}</p>
+      <dl class="meta meta--about">
+        <div><dt>Based in</dt><dd>{{site_location}}</dd></div>
+        <div><dt>Languages</dt><dd>{{languages}}</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" aria-labelledby="bg-title">
+  <h2 id="bg-title" class="section__title">Background</h2>
+  <ol class="timeline" role="list">
+    {{timeline}}
+  </ol>
+</section>
+
+<section class="section wrap" aria-labelledby="tools-title">
+  <h2 id="tools-title" class="section__title">Tools</h2>
+  <div class="toolkit__groups toolkit__groups--about">
+    {{tool_groups}}
+  </div>
+</section>
+
+{{contact}}
